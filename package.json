@@ -4,7 +4,8 @@
   "description": "Create project with react and express server together",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev",
+    "start": "npm run client-install && npm run dev",
+    "client-install": "cd client && npm install",
     "server": "nodemon index.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
