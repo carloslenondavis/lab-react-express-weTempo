@@ -1,0 +1,31 @@
+{
+  "name": "react-express-concurrently",
+  "version": "1.0.0",
+  "description": "Create project with react and express server together",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/clenondavis/weTempo.git"
+  },
+  "author": "Carlos Lenon <code@carloslenon.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clenondavis/weTempo/issues"
+  },
+  "homepage": "https://github.com/clenondavis/weTempo#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  }
+}
