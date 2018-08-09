@@ -8,9 +8,9 @@
 
 //core dependencies
 import { combineReducers } from 'redux';
-import request from '../reducers/request';
-import batuta from '../reducers/batuta';
-import weather from '../reducers/weather';
+import request from './request';
+import batuta from './batuta';
+import weather from './weather';
 
 const app = combineReducers({
     request,

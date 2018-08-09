@@ -37,7 +37,7 @@ const styles = theme => ({
     }
 });
 
-class Search extends Component {
+class Weather extends Component {
 
 	constructor(props){
         super(props);
@@ -225,7 +225,7 @@ class Search extends Component {
 	}
 }
 
-Search.propTypes = {
+Weather.propTypes = {
 	classes: PropTypes.object.isRequired
 };
 
@@ -236,4 +236,4 @@ function mapStateToProps(state) {
 	}
 }
 
-export default connect(mapStateToProps)(withStyles(styles)(Search));
+export default connect(mapStateToProps)(withStyles(styles)(Weather));

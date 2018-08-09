@@ -7,8 +7,7 @@
     
  const config = {
      api: {        
-        host: 'http://localhost:3001/api',
-        // host: 'https://wetempo.glitch.me/api',
+        host: '/api',        
         zone: '/zone'
      }
  }

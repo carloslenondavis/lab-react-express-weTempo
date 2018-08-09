@@ -8,7 +8,7 @@
 
 //core dependencies
 import { createStore, applyMiddleware } from 'redux';
-import app from '../reducers';
+import app from './../reducers';
 import thunk from 'redux-thunk';
 
 let createStoreWithMiddleware = applyMiddleware(thunk)(createStore);

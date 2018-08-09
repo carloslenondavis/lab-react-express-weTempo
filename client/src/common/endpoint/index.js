@@ -5,7 +5,7 @@
  * @author clenon <code@carloslenon.com>
  */
 
-import Config from '../utilities/config';
+import Config from './../utilities/config';
 
 const apiUrl = {    
     countries: {
