@@ -1,7 +1,7 @@
 {
-  "name": "react-express-concurrently",
+  "name": "lab-react-express-wetempo",
   "version": "1.0.0",
-  "description": "Create project with react and express server together",
+  "description": "SPA to get a city weather info using weather and batuta api service. Initially, everything is on cache",
   "main": "index.js",
   "scripts": {
     "start": "npm run client-install && npm run dev",
@@ -21,14 +21,18 @@
   },
   "homepage": "https://github.com/clenondavis/weTempo#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "body-parser": "^1.18.3",
-    "concurrently": "^3.6.1",    
+    "concurrently": "^3.6.1",
     "nodemon": "^1.18.3"
   }
 }

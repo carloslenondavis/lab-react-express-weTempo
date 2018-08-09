@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    background: #f5f5f5;
+}
+
+div {
+    transition: all 1s ease-in 1s;
+}

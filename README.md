@@ -2,7 +2,8 @@
 
 # SPA with Reacjt, Redux, Node, and Express
 
-Create project with react and express server together
+SPA to get a city weather info unsing weather and batuta api service.
+* Initially everything is working with localstorage
 
 ## Setup
 
@@ -21,7 +22,7 @@ These are the instructions to setup and run the proyect on your local. You can a
 Clone the repository
 
 ```
-https://github.com/clenondavis/lab-react-express-concurrently.git
+https://github.com/clenondavis/weTempo.git
 ```
 Once you downloaded the repo, install the npm dependencies executing the following command
 
