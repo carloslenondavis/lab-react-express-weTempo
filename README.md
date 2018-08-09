@@ -3,7 +3,7 @@
 # SPA with Reacjt, Redux, Node, and Express
 
 SPA to get a city weather info unsing weather and batuta api service.
-* Initially everything is working with localstorage
+* Initially everything is working with cache
 
 ## Setup
 
@@ -73,7 +73,7 @@ Your contribution are important. If you want to become and colaborator just foll
 * get in contact with [clenondavis](https://github.com/clenondavis)
 
 You can be a colaborator for other community like Nicaragua community [JsNi](https://github.com/js-ni)
-* get in touch with [Paulo McNally](https://github.com/paulomcnally) ó [Hosmel Quintana](https://github.com/hosmelq), so they can add you as member
+* get in touch with [Paulo McNally](https://github.com/paulomcnally) ó [Hosmel Quintana](https://github.com/hosmelq), so they can add you as a member
 
 
 ## Authors
