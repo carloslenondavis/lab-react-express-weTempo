@@ -4,7 +4,7 @@
   "description": "Create project with react and express server together",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev",
+    "start": "npm run client-install && npm run dev",
     "client-install": "cd client && npm install",
     "server": "nodemon index.js",
     "client": "npm start --prefix client",
@@ -21,10 +21,7 @@
   },
   "homepage": "https://github.com/clenondavis/weTempo#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "babel-polyfill": "^6.26.0",
