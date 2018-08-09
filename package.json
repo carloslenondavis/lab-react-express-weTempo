@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/clenondavis/weTempo#readme",
   "dependencies": {
+    "express": "^4.16.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4"
@@ -30,8 +31,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "body-parser": "^1.18.3",
-    "concurrently": "^3.6.1",
-    "express": "^4.16.3",
+    "concurrently": "^3.6.1",    
     "nodemon": "^1.18.3"
   }
 }
