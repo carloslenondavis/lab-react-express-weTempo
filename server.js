@@ -2,10 +2,10 @@ import express from 'express';
 // import morgan from 'morgan';
 import bodyParser from 'body-parser';
 //class
-import EndPoints from './endpoint';
+import EndPoints from './server/endpoint';
 
 const app = express();
-const port = 5000;
+const port = 7000;
 
 // app.use(morgan('combined'));
 app.use(bodyParser.json());
