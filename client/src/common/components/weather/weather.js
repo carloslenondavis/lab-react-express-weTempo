@@ -34,6 +34,9 @@ const styles = theme => ({
     },
     textAlignRigth: {
         textAlign: 'right'
+    },
+    grid: {
+        marginBottom: 10
     }
 });
 
@@ -196,15 +199,15 @@ class Weather extends Component {
                     TransitionComponent={Slide}
                 />
                 <Grid container spacing={0}>
-                    <Grid item xs={12} sm={12} md={9} lg={10}>
+                    <Grid item xs={12} sm={12} md={9} lg={10} className={classes.grid}>
+                        {
+                            isRequest ? <LinearProgress color="secondary" /> : null
+                        }
                         <Grid container justify="center" spacing={0}>
                             <Grid item xs={10} sm={10} md={10} lg={10}>
                                 <Favorite data= {favorite} viewDetailEvt={this.viewCityWeatherDetail} />
                             </Grid>
-                        </Grid>
-                        {
-                            isRequest ? <LinearProgress color="secondary" /> : null
-                        }
+                        </Grid>                        
                         { 
                             showWeatherBox ? <CityWeather cityInfo={ cityInfo } weather={ weather } addToFavoriteEvt={this.addToFavorite} /> : null
                         } 
