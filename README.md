@@ -22,7 +22,7 @@ These are the instructions to setup and run the proyect on your local. You can a
 Clone the repository
 
 ```
-https://github.com/clenondavis/weTempo.git
+https://github.com/clenondavis/lab-react-express-weTempo.git
 ```
 Once you downloaded the repo, install the npm dependencies executing the following command
 
@@ -32,7 +32,7 @@ npm i
 
 ### Run the SPA
 
-To run the app just execute the following command. By default the servers on ports 3000 and 7000.
+To run the app just execute the following command. By default the servers on ports 3000 and 5000.
 
 ```
 npm run dev
@@ -82,7 +82,7 @@ You can be a colaborator for other community like Nicaragua community [JsNi](htt
 
 ## License
 
-This poroject is based on MIT license - ver see license detail [MIT](https://github.com/clenondavis/weTempo/blob/master/LICENSE)
+This poroject is based on MIT license - ver see license detail [MIT](https://github.com/clenondavis/lab-react-express-weTempo/blob/master/LICENSE)
 
 ## Inspiration
 
